@@ -38,7 +38,6 @@ body {
 .img-color-wrap {
   background-color: var(--color-soft-violet);
   isolation: isolate;
-  /* z-index: 2; */
 }
 
 .image-div {
@@ -47,7 +46,6 @@ body {
   background-size: contain;
   mix-blend-mode: multiply;
   opacity: 0.7511;
-  /* z-index: 3; */
 }
 
 .value {

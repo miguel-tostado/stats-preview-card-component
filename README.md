@@ -14,6 +14,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Useful resources](#useful-resources)
   - [Author](#author)
 
 ## Overview
@@ -42,6 +44,29 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+
+### What I learned
+
+This project introduced me to the css blend properties, specifically mix-blend-mode. Wasn't too difficult to figure out; however, getting the screenshot to work properly on Frontend Mentor's website was proving to be difficult. Each time I uploaded I only saw a color background without an image on the screenshot despite everything working properly on a live site. Thankfully, I found an article that went over the isolation css property.
+
+```css
+.img-color-wrap {
+  background-color: var(--color-soft-violet);
+  isolation: isolate;
+}
+
+.image-div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+}
+```
+
+### Useful resources
+
+- [How to use CSS blend modes](https://getflywheel.com/layout/css-blend-modes/) - This helped with the blend properties and taught me the isolation css property.
 
 ## Author
 
