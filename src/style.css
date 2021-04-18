@@ -67,6 +67,7 @@ body {
 
 .body {
   color: var(--color-75-transparent-white);
+  line-height: 25px;
 }
 
 .label {
