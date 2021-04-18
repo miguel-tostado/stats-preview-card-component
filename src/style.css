@@ -37,6 +37,7 @@ body {
 
 .img-color-wrap {
   background-color: var(--color-soft-violet);
+  z-index: 2;
 }
 
 .image-div {
