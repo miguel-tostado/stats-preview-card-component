@@ -35,17 +35,17 @@ body {
   -o-border-radius: 8px;
 }
 
-.img-color-wrap {
-  background-color: var(--color-soft-violet);
-  mix-blend-mode: normal;
-}
-
 .image-div {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   mix-blend-mode: multiply;
   opacity: 0.7511;
+}
+
+.img-color-wrap {
+  background-color: var(--color-soft-violet);
+  mix-blend-mode: normal;
 }
 
 .value {
