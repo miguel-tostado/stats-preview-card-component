@@ -37,6 +37,7 @@ body {
 
 .img-color-wrap {
   background-color: var(--color-soft-violet);
+  mix-blend-mode: normal;
 }
 
 .image-div {
