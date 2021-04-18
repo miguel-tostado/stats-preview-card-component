@@ -53,6 +53,7 @@ body {
 
 .label {
   font-size: 12px;
+  letter-spacing: 1px;
 }
 
 .heading,
@@ -192,7 +193,8 @@ body {
     font-family: var(--ff-lexend-deca);
   }
 
-  .templates {
-    margin: 0 62.25px;
+  .stats {
+    display: flex;
+    justify-content: space-between;
   }
 }
